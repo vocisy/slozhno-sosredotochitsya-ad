@@ -9,3 +9,18 @@
   --section-paragraph-text-color: #F1B2CE;
   --footer-text-shadow: #FF0070;
 }
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --header-background-image: url('../images/cover-image-dark.png');
+  --accent-color: #FF0070;
+  --border-color: #FF0070;
+  --page-background-color: #000028;
+  --header-title-color: #DB00FF;
+  --section-header-color: #FF0070;
+  --subtitles-text-color: #000028;
+  --section-paragraph-text-color: #F1B2CE;
+  --footer-text-shadow: #FF0070;
+  }
+}
