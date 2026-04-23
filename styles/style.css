@@ -116,9 +116,14 @@
   color: var(--subtitles-text-color);
 }
 
+.header__rec {
+  display: none;
+}
+
 .rec-indicator {
   position: absolute;
-  right: 9px;
+  top: 10px;
+  right: 19px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -197,9 +202,14 @@
     padding-top: 182px;
   }
 
-  .page-corner--top-right {
+    .page-corner--top-right {
     top: 20px;
     right: 20px;
+  }
+
+  .rec-indicator {
+    top: 20px;
+    right: 29px;
   }
 
   .page-corner--bottom-left {
